@@ -22,6 +22,18 @@ export default function Nav() {
   // useState for NavLinks show and hide
   const [isNavLinkShow, setIsNavLinkShow] = useState(false);
 
+  // Window scroll NavLinks effects
+  if(innerWidth < 1024){
+    window.addEventListener('scroll', ()=>{
+      document.querySelector('.nav-links').classList.add('nav-link-hide');
+      setIsNavLinkShow(false);
+    })
+  }
+  window.addEventListener('scroll', ()=>{
+    document.querySelector('nav').classList.toggle('nav-shadow', window.screenY > 0);
+    setIsNavLinkShow(false);
+  })
+
   return (
     <nav>
       <div className="container nav-container">
