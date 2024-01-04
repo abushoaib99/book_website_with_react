@@ -14,8 +14,14 @@ import { navLinks, navRight } from '../../Data/Data'
 import { VscMenu } from "react-icons/vsc";
 import { GrClose } from "react-icons/gr";
 
+// Import Hokes
+import {useState} from 'react';
+
 
 export default function Nav() {
+  // useState for NavLinks show and hide
+  const [isNavLinkShow, setIsNavLinkShow] = useState(false);
+
   return (
     <nav>
       <div className="container nav-container">
@@ -25,7 +31,7 @@ export default function Nav() {
         </Link>
 
         {/* ............Nav-Link............*/}
-        <ul className="nav-links">
+        <ul className={`nav-links ${isNavLinkShow ? 'nav-link-show' : 'nav-link-hide'}`}>
           {
             navLinks.map(({name, path}, index) => {
               return(
@@ -51,9 +57,11 @@ export default function Nav() {
               )
             })
           }
-          <button className="menu-button">
-            <VscMenu />
-            <GrClose />
+          <button className="menu-button" onClick={() => setIsNavLinkShow(!isNavLinkShow)}>
+            {
+              isNavLinkShow ? <GrClose /> : 
+              <VscMenu />
+            }
 
           </button>
         </div>
