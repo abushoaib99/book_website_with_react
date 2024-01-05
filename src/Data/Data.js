@@ -310,7 +310,7 @@ export const navLinks =[
   
   
    
-   export const lettestArticleData = [
+   export const latestArticleData = [
     {
       id: 1,
       title: 'Reading books always makes the moments happy',
