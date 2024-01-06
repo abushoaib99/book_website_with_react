@@ -19,6 +19,6 @@ Build A Modern `Responsive` E-Commerce Books website using [`ReactJS (v18.2.0)`]
 
 **Screenshot**
 
-![Screenshot not showing for some issue](/src/assets/screencapture_desktop.png)
-![Screenshot not showing for some issue](/src/assets/screencapture_iPad.png)
-![Screenshot not showing for some issue](/src/assets/screencapture_iPhone.png)
+![Destop screenshot not showing for some issue](/src/assets/screencapture_desktop.png)
+![iPad screenshot not showing for some issue](/src/assets/screencapture_iPad.png)
+![iPhoine screenshot not showing for some issue](/src/assets/screencapture_iPhone.png)
