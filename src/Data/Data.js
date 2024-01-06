@@ -357,7 +357,7 @@ export const navLinks =[
   import {  GrLinkedinOption } from 'react-icons/gr';
 
   // Footers Data .......................  
-  export const FootersLinksData = {
+  export const footersLinksData = {
   
     Aboutus: [
       { linkname: 'vision ', link: "*", },    
