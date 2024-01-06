@@ -1,8 +1,18 @@
-# React + Vite
+# Book Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build A Modern `Responsive` E-Commerce Books website using [`ReactJS (v18.2.0)`](https://react.dev/learn) and `CSS`.
 
-Currently, two official plugins are available:
+>Created this project with [vite](https://vitejs.dev/guide/) and command is `npm create vite@latest`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Version**:
+
+- `node v20.10.0`
+- `npm v10.2.5`
+- `React v18.2.0`
+
+**Packages**:
+
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) for [Navigate Pages](https://reactrouter.com/en/main/router-components/browser-router)
+- [react-icons](https://www.npmjs.com/package/react-icons) for [React Icons](https://react-icons.github.io/react-icons/)
+- [react-social-icons](https://www.npmjs.com/package/react-social-icons) for [React Social Icons](https://react-social-icons.com/)
+- [swiper](https://www.npmjs.com/package/swiper) for [Carousel](https://swiperjs.com/get-started)
