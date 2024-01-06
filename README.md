@@ -12,7 +12,7 @@ Build A Modern `Responsive` E-Commerce Books website using [`ReactJS (v18.2.0)`]
 
 **Packages**:
 
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) for [Navigate Pages](https://reactrouter.com/en/main/router-components/browser-router)
-- [react-icons](https://www.npmjs.com/package/react-icons) for [React Icons](https://react-icons.github.io/react-icons/)
-- [react-social-icons](https://www.npmjs.com/package/react-social-icons) for [React Social Icons](https://react-social-icons.com/)
-- [swiper](https://www.npmjs.com/package/swiper) for [Carousel](https://swiperjs.com/get-started)
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) for [Navigate Pages](https://reactrouter.com/en/main/router-components/browser-router)
+- [`react-icons`](https://www.npmjs.com/package/react-icons) for [React Icons](https://react-icons.github.io/react-icons/)
+- [`react-social-icons`](https://www.npmjs.com/package/react-social-icons) for [React Social Icons](https://react-social-icons.com/)
+- [`swiper`](https://www.npmjs.com/package/swiper) for [Carousel](https://swiperjs.com/get-started)
