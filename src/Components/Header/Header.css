@@ -131,6 +131,13 @@ header{
     .header-right{
         width: 90%;
     }
+    .header-left h1{
+        font-size: 25px !important;
+        margin-bottom: -40px;
+    }
+    .header-left p{
+        font-size: 15px !important;
+    }
     .slidebutton{
         padding: 14px;
     }

@@ -16,3 +16,9 @@ Build A Modern `Responsive` E-Commerce Books website using [`ReactJS (v18.2.0)`]
 - [`react-icons`](https://www.npmjs.com/package/react-icons) for [React Icons](https://react-icons.github.io/react-icons/)
 - [`react-social-icons`](https://www.npmjs.com/package/react-social-icons) for [React Social Icons](https://react-social-icons.com/)
 - [`swiper`](https://www.npmjs.com/package/swiper) for [Carousel](https://swiperjs.com/get-started)
+
+**Screenshot**
+
+![Screenshot not showing for some issue](/src/assets/screencapture_desktop.png)
+![Screenshot not showing for some issue](/src/assets/screencapture_iPad.png)
+![Screenshot not showing for some issue](/src/assets/screencapture_iPhone.png)

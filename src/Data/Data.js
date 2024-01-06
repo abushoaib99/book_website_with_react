@@ -209,7 +209,7 @@ export const navLinks =[
   import popularbook1 from '../assets/PopularBooksImage/book1.png'
   import popularbook2 from '../assets/PopularBooksImage/book2.png'
   import popularbook3 from '../assets/PopularBooksImage/book3.png'
-  import popularbook4 from '../assets/PopularBooksImage/book4.png'
+  import popularbook4 from '../assets/PopularBooksImage/book6.png'
   import popularbook5 from '../assets/PopularBooksImage/book5.png'
   import popularbook6 from '../assets/PopularBooksImage/book6.png'
   import popularbook7 from '../assets/PopularBooksImage/book7.png'
