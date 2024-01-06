@@ -4,7 +4,7 @@ Build A Modern `Responsive` E-Commerce Books website using [`ReactJS (v18.2.0)`]
 
 >Created this project with [vite](https://vitejs.dev/guide/) and command is `npm create vite@latest`.
 
-**Version**:
+**Tools Version**:
 
 - `node v20.10.0`
 - `npm v10.2.5`
