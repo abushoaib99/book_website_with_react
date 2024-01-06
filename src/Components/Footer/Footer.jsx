@@ -7,6 +7,10 @@ import { footersLinksData } from "../../Data/Data";
 // Import Link From React Router Dom
 import { Link } from "react-router-dom";
 
+// Import CopyRight Component
+import CopyRight from "../CopyRight/CopyRight";
+
+
 // Footer Params Component
 function Params({ title, className, data }) {
   return (
@@ -56,6 +60,7 @@ export default function Footer() {
           data={footersLinksData.Help}
         />
       </div>
+      <CopyRight/>
     </footer>
   );
 }
