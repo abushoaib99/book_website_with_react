@@ -1,139 +1,135 @@
-nav{
-    height: 100px;
-    display: grid;
-    place-items: center;
-    position: sticky;
-    top: 0;
-    background: var(--color-bg-1);
-    z-index: 100;
+nav {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  position: sticky;
+  top: 0;
+  background: var(--color-bg-1);
+  z-index: 100;
 }
 
-.nav-shadow{
-    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-container .logo {
+  width: 60px;
 }
 
-.nav-container .logo{
-    width: 60px;
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.nav-links{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.nav-links a {
+  color: var(--color-dark);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav-links .active {
+  color: tomato;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-right a {
+  color: var(--color-dark);
+  font-size: 17px;
 }
 
-.nav-links a{
-    color: var(--color-dark);
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.nav-links .active{
-    color: tomato;
-}
-.nav-right{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.nav-right a{
-    color: var(--color-dark);
-    font-size: 17px;
-}
-
-.menu-button{
-    display: none;
+.menu-button {
+  display: none;
 }
 
 /*...........Max-width: 1024px................*/
-@media (max-width: 1024px){
-    nav{
-        height: 90px;
-    }
-    .nav-container{
-        position: relative;
-        height: 100%;
-    }
-    .nav-container .logo{
-        width: 50px;
-    }
-    .nav-links{
-        flex-direction: column;
-        gap: 0;
-        width: 20rem;
-        transition: var(--transition);
-        top: 90px;
-        right: 0;
-        position: fixed;
-        perspective: 400px;
-    }
-    .nav-links li{
-        height: 100%;
-        width: 100%;
-        animation: navAni 600ms forwards ease;
-        opacity: 0;
-        transform: rotateY(-90deg);
-    }
-    .nav-links a{
-        background: var(--color-bg-1);
-        height: 80px;
-        width: 100%;
-        display: flex;
-        padding-left: 40px;
-        align-items: center;
-        overflow: hidden;
-        box-shadow: -1rem 5rem 5rem rgba(0, 0, 0, 0.4);
-    }
+@media (max-width: 1024px) {
+  nav {
+    height: 90px;
+  }
+  .nav-container {
+    position: relative;
+    height: 100%;
+  }
+  .nav-container .logo {
+    width: 50px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0;
+    width: 20rem;
+    transition: var(--transition);
+    top: 90px;
+    right: 0;
+    position: fixed;
+    perspective: 400px;
+  }
+  .nav-links li {
+    height: 100%;
+    width: 100%;
+    animation: navAni 600ms forwards ease;
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  .nav-links a {
+    background: var(--color-bg-1);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: -1rem 5rem 5rem rgba(0, 0, 0, 0.4);
+  }
 
-    /*..........NavLink Animation........*/
-    @keyframes navAni {
-        to{
-            transform: rotateY(0);
-            opacity: 1;
-        }        
+  /*..........NavLink Animation........*/
+  @keyframes navAni {
+    to {
+      transform: rotateY(0);
+      opacity: 1;
     }
-    .nav-links li:nth-child(2){
-        animation-delay: 200ms;
-    }
-    .nav-links li:nth-child(3){
-        animation-delay: 400ms;
-    }
-    .nav-links li:nth-child(4){
-        animation-delay: 600ms;
-    }
-    .nav-links li:nth-child(5){
-        animation-delay: 800ms;
-    }
-    .nav-links li:nth-child(6){
-        animation-delay: 1000ms;
-    }
-    .nav-links li:nth-child(7){
-        animation-delay: 1200ms;
-    }
+  }
+  .nav-links li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+  .nav-links li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+  .nav-links li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+  .nav-links li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+  .nav-links li:nth-child(6) {
+    animation-delay: 1000ms;
+  }
+  .nav-links li:nth-child(7) {
+    animation-delay: 1200ms;
+  }
 
-    .menu-button{
-        display: inline-block;
-        color: var(--color-dark);
-        font-size: 18px;
-    }
+  .menu-button {
+    display: inline-block;
+    color: var(--color-dark);
+    font-size: 18px;
+  }
 
-    /* ..........NavLink show and hide...........*/
-    .nav-link-show{
-        display: flex;
-    }
-    .nav-link-hide{
-        display: none;
-    }
+  /* ..........NavLink show and hide...........*/
+  .nav-link-show {
+    display: flex;
+  }
+  .nav-link-hide {
+    display: none;
+  }
 }
 
 /*...........Max-width: 600px................*/
-@media (max-width: 600px){
-    .nav-links{
-        width: 18rem;
-    }
+@media (max-width: 600px) {
+  .nav-links {
+    width: 18rem;
+  }
 }
